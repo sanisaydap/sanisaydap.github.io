@@ -1,0 +1,479 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+body{
+  background-color: #3A3B3C;
+
+}
+
+/* The menu bar */
+
+.menu{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 30px 10%;
+  background-color: #3A3B3C;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 200;
+}
+
+/* Each item in the menu bar */
+.menu-item a{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(187,187,187,1);
+}
+
+
+/* Hover actions of each item in the menu bar */
+
+.menu-item a:hover{
+  cursor: pointer;
+  color: #C34A2C;
+  transition: .3s color;
+}
+
+
+/* The wrapper for the search bar */
+.searchwrapper {
+  position: relative;
+  display: flex;
+  min-width: 100px;
+}
+
+/* styling for the search icon */
+
+.search-icon {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  width: 14px;
+}
+
+/* styling for the search bar */
+
+.search {
+  border: 1px solid grey;
+  border-radius: 100px;
+  height: 20px;
+  width: 100%;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: #f5f5f5;
+}
+
+/* styling for the large image in the home page  */
+
+.homepageimage{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+
+.textinsideimagewrapper{
+  position: absolute;
+  top: 620px;
+  left: 900px;
+  background-color: rgba(255,255,255,0.78);
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textinsideimagewrapper{
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: rgba(187,187,187,1);
+}
+
+.textinsideimagewrapper .txt1{
+  font-weight: 200;
+  color: #000000;
+}
+
+.textinsideimagewrapper .txt2{
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #000000;
+}
+
+/* SOCIAL MEDIA LINE STYLING  */
+
+.social-media-wrapper{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+#social-media {
+  width: auto;
+}
+
+#social-media a{
+  text-decoration: none;
+}
+
+
+#icon{
+  text-decoration: none;
+  color: #000000;
+  border-radius: 50%;
+  background-color: #C0C0C0;
+}
+
+#icon:hover{
+  background-color: #3A3B3C;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: #C34A2C;
+}
+
+
+/* ETHNIC TATTOO GALLERY LINE STYLING  */
+
+.gallery-title-wrapper{
+  display: flex;
+  justify-content:center;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-title-wrapper li{
+  font-size: 38px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.gallery-title-wrapper .text-1{
+  font-weight: 200;
+  color: #C34A2C;
+}
+
+.gallery-title-wrapper .text-2{
+  color: #0C090A;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.gallery-title-wrapper .text-3{
+  font-weight: 200;
+  color: #8d8d8d;
+}
+
+
+/* DIVISOR BETWEEN SECTIONS STYLING  */
+
+.divisor{
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(136,136,136,1);
+}
+
+.divisor-lg{
+  max-width: 2000px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(136,136,136,1);
+}
+
+.divisor-md{
+  margin-top: 30px;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(136,136,136,1);
+}
+
+
+.divisor-mini{
+  max-width: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(136,136,136,1);
+}
+
+
+
+
+/* INTERESTING LINKS STYLING  */
+
+
+#interesting-links{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.link-button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #C0C0C0;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px 15px;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  color: #000000;
+}
+
+.link-button a{
+  color: black;
+  text-decoration: none;
+}
+
+.link-button a:hover{
+  color: #C34A2C;
+  transition: .3s color;
+}
+
+.link-button:hover{
+  color: white;
+  text-decoration-color: white;
+  background-color: #3A3B3C;
+  cursor: pointer;
+  border: 1px solid;
+  border-color: #C34A2C;
+  transition: .3s color;
+}
+
+/* CARDS AND CARD CONTAINER STYLING  */
+
+
+.card-container{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-container .card-rectangle li{
+  text-align: center;
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+.card-container .card-rectangle p{
+  font-size: 14px;
+  color: #C34A2C;
+}
+
+.card-container .card-rectangle strong{
+  font-size: 12px;
+  color: #8d8d8d;
+}
+
+
+.card-container .card-rectangle .card-text1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color: #C34A2C;
+}
+
+
+.card-container .card-rectangle {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
+
+
+.card-container .card-rectangle .card-image{
+  height: 200px;
+  width: 200px;
+}
+
+.card-container .card-rectangle .card-image:hover{
+  cursor: pointer;
+  border: 1px solid;
+  border-color: #C34A2C;
+}
+
+
+.card-container .card-rectangle .container-wrapper{
+  display: flex;
+
+}
+
+/*STYLING THE SAME CONTAINER AND CARD AS A CIRCLE*/
+
+.card-container .card-circle li{
+  text-align: center;
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+.card-container .card-circle p{
+  font-size: 14px;
+  color: #C34A2C;
+}
+
+.card-container .card-circle .card-text1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color: #C34A2C;
+}
+
+
+.card-container .card-circle {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
+
+
+.card-container .card-circle .card-image{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.card-container .card-circle .card-image:hover{
+  cursor: pointer;
+  border: 1px solid;
+  border-color: #C34A2C;
+}
+
+
+.card-container .card-circle .container-wrapper{
+  display: flex;
+
+}
+
+
+/*STYLING THE MINI HEADER*/
+
+.mini-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mini-header .text-2{
+  margin-left: 10px;
+  font-weight: 200;
+  color: #8d8d8d;
+}
+
+.mini-header a{
+  color: black;
+  text-decoration: none;}
+
+
+.mini-header .text-2:hover{
+  color: #C34A2C;
+  transition: .3s color;
+}
+/*STYLING THE WELCOME TEXT*/
+
+.welcome-text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.welcome-text p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  color: #8d8d8d;
+}
+
+.welcome-text strong{
+  color: #C34A2C;
+}
+
+
+
+
+
+.textinsideimagewrapper-inner{
+  position: absolute;
+  top: 450px;
+  left: 900px;
+  background-color: rgba(255,255,255,0.78);
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textinsideimagewrapper-inner{
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: rgba(187,187,187,1);
+}
+
+.textinsideimagewrapper-inner .txt1{
+  font-weight: 200;
+  color: #000000;
+}
+
+.textinsideimagewrapper-inner .txt2{
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #000000;
+}
